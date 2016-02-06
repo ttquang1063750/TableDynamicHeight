@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED775F831C6607B500A52830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED775F821C6607B500A52830 /* AppDelegate.swift */; };
+		ED775F851C6607B500A52830 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED775F841C6607B500A52830 /* ViewController.swift */; };
+		ED775F881C6607B500A52830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED775F861C6607B500A52830 /* Main.storyboard */; };
+		ED775F8A1C6607B500A52830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED775F891C6607B500A52830 /* Assets.xcassets */; };
+		ED775F8D1C6607B500A52830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED775F8B1C6607B500A52830 /* LaunchScreen.storyboard */; };
+		ED775F981C6607B500A52830 /* TableDynamicHeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED775F971C6607B500A52830 /* TableDynamicHeightTests.swift */; };
+		ED775FA31C6607B500A52830 /* TableDynamicHeightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED775FA21C6607B500A52830 /* TableDynamicHeightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED775F941C6607B500A52830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED775F771C6607B500A52830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED775F7E1C6607B500A52830;
+			remoteInfo = TableDynamicHeight;
+		};
+		ED775F9F1C6607B500A52830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED775F771C6607B500A52830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED775F7E1C6607B500A52830;
+			remoteInfo = TableDynamicHeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED775F7F1C6607B500A52830 /* TableDynamicHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableDynamicHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED775F821C6607B500A52830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED775F841C6607B500A52830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED775F871C6607B500A52830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED775F891C6607B500A52830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED775F8C1C6607B500A52830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED775F8E1C6607B500A52830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED775F931C6607B500A52830 /* TableDynamicHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableDynamicHeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED775F971C6607B500A52830 /* TableDynamicHeightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDynamicHeightTests.swift; sourceTree = "<group>"; };
+		ED775F991C6607B500A52830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED775F9E1C6607B500A52830 /* TableDynamicHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableDynamicHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED775FA21C6607B500A52830 /* TableDynamicHeightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDynamicHeightUITests.swift; sourceTree = "<group>"; };
+		ED775FA41C6607B500A52830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED775F7C1C6607B500A52830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED775F901C6607B500A52830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED775F9B1C6607B500A52830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED775F761C6607B500A52830 = {
+			isa = PBXGroup;
+			children = (
+				ED775F811C6607B500A52830 /* TableDynamicHeight */,
+				ED775F961C6607B500A52830 /* TableDynamicHeightTests */,
+				ED775FA11C6607B500A52830 /* TableDynamicHeightUITests */,
+				ED775F801C6607B500A52830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED775F801C6607B500A52830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED775F7F1C6607B500A52830 /* TableDynamicHeight.app */,
+				ED775F931C6607B500A52830 /* TableDynamicHeightTests.xctest */,
+				ED775F9E1C6607B500A52830 /* TableDynamicHeightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED775F811C6607B500A52830 /* TableDynamicHeight */ = {
+			isa = PBXGroup;
+			children = (
+				ED775F821C6607B500A52830 /* AppDelegate.swift */,
+				ED775F841C6607B500A52830 /* ViewController.swift */,
+				ED775F861C6607B500A52830 /* Main.storyboard */,
+				ED775F891C6607B500A52830 /* Assets.xcassets */,
+				ED775F8B1C6607B500A52830 /* LaunchScreen.storyboard */,
+				ED775F8E1C6607B500A52830 /* Info.plist */,
+			);
+			path = TableDynamicHeight;
+			sourceTree = "<group>";
+		};
+		ED775F961C6607B500A52830 /* TableDynamicHeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED775F971C6607B500A52830 /* TableDynamicHeightTests.swift */,
+				ED775F991C6607B500A52830 /* Info.plist */,
+			);
+			path = TableDynamicHeightTests;
+			sourceTree = "<group>";
+		};
+		ED775FA11C6607B500A52830 /* TableDynamicHeightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED775FA21C6607B500A52830 /* TableDynamicHeightUITests.swift */,
+				ED775FA41C6607B500A52830 /* Info.plist */,
+			);
+			path = TableDynamicHeightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED775F7E1C6607B500A52830 /* TableDynamicHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED775FA71C6607B500A52830 /* Build configuration list for PBXNativeTarget "TableDynamicHeight" */;
+			buildPhases = (
+				ED775F7B1C6607B500A52830 /* Sources */,
+				ED775F7C1C6607B500A52830 /* Frameworks */,
+				ED775F7D1C6607B500A52830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableDynamicHeight;
+			productName = TableDynamicHeight;
+			productReference = ED775F7F1C6607B500A52830 /* TableDynamicHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED775F921C6607B500A52830 /* TableDynamicHeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED775FAA1C6607B500A52830 /* Build configuration list for PBXNativeTarget "TableDynamicHeightTests" */;
+			buildPhases = (
+				ED775F8F1C6607B500A52830 /* Sources */,
+				ED775F901C6607B500A52830 /* Frameworks */,
+				ED775F911C6607B500A52830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED775F951C6607B500A52830 /* PBXTargetDependency */,
+			);
+			name = TableDynamicHeightTests;
+			productName = TableDynamicHeightTests;
+			productReference = ED775F931C6607B500A52830 /* TableDynamicHeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED775F9D1C6607B500A52830 /* TableDynamicHeightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED775FAD1C6607B500A52830 /* Build configuration list for PBXNativeTarget "TableDynamicHeightUITests" */;
+			buildPhases = (
+				ED775F9A1C6607B500A52830 /* Sources */,
+				ED775F9B1C6607B500A52830 /* Frameworks */,
+				ED775F9C1C6607B500A52830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED775FA01C6607B500A52830 /* PBXTargetDependency */,
+			);
+			name = TableDynamicHeightUITests;
+			productName = TableDynamicHeightUITests;
+			productReference = ED775F9E1C6607B500A52830 /* TableDynamicHeightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED775F771C6607B500A52830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Thanh Quang Ngoc Tuong";
+				TargetAttributes = {
+					ED775F7E1C6607B500A52830 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ED775F921C6607B500A52830 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ED775F7E1C6607B500A52830;
+					};
+					ED775F9D1C6607B500A52830 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ED775F7E1C6607B500A52830;
+					};
+				};
+			};
+			buildConfigurationList = ED775F7A1C6607B500A52830 /* Build configuration list for PBXProject "TableDynamicHeight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED775F761C6607B500A52830;
+			productRefGroup = ED775F801C6607B500A52830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED775F7E1C6607B500A52830 /* TableDynamicHeight */,
+				ED775F921C6607B500A52830 /* TableDynamicHeightTests */,
+				ED775F9D1C6607B500A52830 /* TableDynamicHeightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED775F7D1C6607B500A52830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED775F8D1C6607B500A52830 /* LaunchScreen.storyboard in Resources */,
+				ED775F8A1C6607B500A52830 /* Assets.xcassets in Resources */,
+				ED775F881C6607B500A52830 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED775F911C6607B500A52830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED775F9C1C6607B500A52830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED775F7B1C6607B500A52830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED775F851C6607B500A52830 /* ViewController.swift in Sources */,
+				ED775F831C6607B500A52830 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED775F8F1C6607B500A52830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED775F981C6607B500A52830 /* TableDynamicHeightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED775F9A1C6607B500A52830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED775FA31C6607B500A52830 /* TableDynamicHeightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED775F951C6607B500A52830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED775F7E1C6607B500A52830 /* TableDynamicHeight */;
+			targetProxy = ED775F941C6607B500A52830 /* PBXContainerItemProxy */;
+		};
+		ED775FA01C6607B500A52830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED775F7E1C6607B500A52830 /* TableDynamicHeight */;
+			targetProxy = ED775F9F1C6607B500A52830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED775F861C6607B500A52830 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED775F871C6607B500A52830 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED775F8B1C6607B500A52830 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED775F8C1C6607B500A52830 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED775FA51C6607B500A52830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED775FA61C6607B500A52830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED775FA81C6607B500A52830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableDynamicHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gumiviet.TableDynamicHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED775FA91C6607B500A52830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableDynamicHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gumiviet.TableDynamicHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED775FAB1C6607B500A52830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableDynamicHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gumiviet.TableDynamicHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableDynamicHeight.app/TableDynamicHeight";
+			};
+			name = Debug;
+		};
+		ED775FAC1C6607B500A52830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableDynamicHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gumiviet.TableDynamicHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableDynamicHeight.app/TableDynamicHeight";
+			};
+			name = Release;
+		};
+		ED775FAE1C6607B500A52830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TableDynamicHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gumiviet.TableDynamicHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableDynamicHeight;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ED775FAF1C6607B500A52830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TableDynamicHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gumiviet.TableDynamicHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableDynamicHeight;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED775F7A1C6607B500A52830 /* Build configuration list for PBXProject "TableDynamicHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED775FA51C6607B500A52830 /* Debug */,
+				ED775FA61C6607B500A52830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED775FA71C6607B500A52830 /* Build configuration list for PBXNativeTarget "TableDynamicHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED775FA81C6607B500A52830 /* Debug */,
+				ED775FA91C6607B500A52830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED775FAA1C6607B500A52830 /* Build configuration list for PBXNativeTarget "TableDynamicHeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED775FAB1C6607B500A52830 /* Debug */,
+				ED775FAC1C6607B500A52830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED775FAD1C6607B500A52830 /* Build configuration list for PBXNativeTarget "TableDynamicHeightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED775FAE1C6607B500A52830 /* Debug */,
+				ED775FAF1C6607B500A52830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED775F771C6607B500A52830 /* Project object */;
+}
