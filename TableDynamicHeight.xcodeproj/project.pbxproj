@@ -14,6 +14,7 @@
 		ED775F8D1C6607B500A52830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED775F8B1C6607B500A52830 /* LaunchScreen.storyboard */; };
 		ED775F981C6607B500A52830 /* TableDynamicHeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED775F971C6607B500A52830 /* TableDynamicHeightTests.swift */; };
 		ED775FA31C6607B500A52830 /* TableDynamicHeightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED775FA21C6607B500A52830 /* TableDynamicHeightUITests.swift */; };
+		ED775FB11C66082E00A52830 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED775FB01C66082E00A52830 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ED775F9E1C6607B500A52830 /* TableDynamicHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableDynamicHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED775FA21C6607B500A52830 /* TableDynamicHeightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDynamicHeightUITests.swift; sourceTree = "<group>"; };
 		ED775FA41C6607B500A52830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED775FB01C66082E00A52830 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				ED775F891C6607B500A52830 /* Assets.xcassets */,
 				ED775F8B1C6607B500A52830 /* LaunchScreen.storyboard */,
 				ED775F8E1C6607B500A52830 /* Info.plist */,
+				ED775FB01C66082E00A52830 /* CustomTableViewCell.swift */,
 			);
 			path = TableDynamicHeight;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED775FB11C66082E00A52830 /* CustomTableViewCell.swift in Sources */,
 				ED775F851C6607B500A52830 /* ViewController.swift in Sources */,
 				ED775F831C6607B500A52830 /* AppDelegate.swift in Sources */,
 			);
